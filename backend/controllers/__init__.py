@@ -1,0 +1,1 @@
+from .recommendationController import router as suggestionRouter
