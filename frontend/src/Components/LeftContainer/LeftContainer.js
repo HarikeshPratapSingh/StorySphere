@@ -7,6 +7,7 @@ import FeedIcon from '../Images/feed-icon.png'
 import MessageIcon from '../Images/message-icon.png'
 import FriendsIcon from '../Images/friends-icon.png'
 import SettingsIcon from '../Images/settings-icon.png'
+import SearchIcon from '../Images/search-icon.png'
 
 
 export default function LeftContainer() {
@@ -20,7 +21,7 @@ export default function LeftContainer() {
           </div>
             <div className='flex flex-col h-2/3 justify-center'>
               <NavContainer text='Post Feed' icon={FeedIcon}/>
-              <NavContainer text='Search' icon={MessageIcon}/>
+              <NavContainer text='Search' icon={SearchIcon}/>
               <NavContainer text='Messages' icon={MessageIcon}/>
               <NavContainer text='Notifiations' icon={FriendsIcon}/>
               <NavContainer text='Settings' icon={SettingsIcon}/>
@@ -28,7 +29,7 @@ export default function LeftContainer() {
             
         </div>
         <div className='h-1/4 w-full flex flex-col justify-center items-center cursor-pointer'>
-            <img className='rounded-xl h-2/3' src={`${Logo}`} alt="" />
+            <img className='rounded-xl h-3/5' src={`${LogoText}`} alt="" />
             {/* <p className='font-semibold text-sm mt-8'>Download the App</p> */}
         </div>
     </div>
