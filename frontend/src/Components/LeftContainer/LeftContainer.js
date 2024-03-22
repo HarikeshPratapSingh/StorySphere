@@ -12,7 +12,7 @@ import SearchIcon from '../Images/search-icon.png'
 
 export default function LeftContainer() {
   return (
-    <div className='h-screen w-1/4 p-12 fixed'>
+    <div className='h-screen w-1/4 p-12 fixed' >
         <div className='flex flex-col h-3/4'>
           <div className='h-1/3 flex flex-col items-center'>
             <img className='rounded-full h-1/2' src={`${DefaultImage}`} alt="" />
